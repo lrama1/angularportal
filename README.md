@@ -20,7 +20,9 @@ An app generated using angular-cli with the following files modified
               existing one before trying to import it.
 3.  app.module.ts - added {useHash : true} to router configuration
 4.  tsconfig.app.json - set "module" value to "esnext"
-5.  index.html - changed the app-root element name to 'app-root1' to avoid collisions
+5.  index.html - 
+    a.  changed the app-root element name to 'app-root1' to avoid collisions
              with other angular apps on the same page
+    b.  removed <BASE> element
 6.  app.component.ts - updated 'selector' value to 'app-root1' to match element root
                 name specified in item #5
