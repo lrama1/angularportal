@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <h1>Portal of Angular Componentsx</h1>
+  <button id="app1Button">App1</button>
+  <button id="app2Button">App2</button>
+  <div id="comp1"></div>
+  <div id="comp2"></div> 
+
+<script>
+$(document).ready(function(){
+    //alert('done');
+    $('#app1Button').click(function() {
+           $('#comp1').load('http://localhost:8100/portlet1/');
+      }
+    );
+    $('#app2Button').click(function() {
+           $('#comp2').load('http://localhost:8100/portlet2/');
+      }
+    );
+    //$('#comp').load('http://localhost:8100/app1/');
+});
+</script>
+  <!--script src="http://localhost:8100/portlet1/static/js/main.d316e5ad.js"></script-->
+</body>
+</html>
