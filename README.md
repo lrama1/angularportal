@@ -1,6 +1,6 @@
 # angularportal
 
-##Synopsis
+## Synopsis
 This project is actually composed of 3 distinct subprojects designed to show
 how 2 angular apps can coexist in a 'container' page.
 The 3 projects are:
