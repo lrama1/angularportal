@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="form-group">
+      <label for="personId">personId</label>
+      <div ><input type="text" id="personId" name="personId" class="form-control" [(ngModel)]="person.personId"></div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="form-group">
+      <label for="firstName">firstName</label>
+      <div ><input type="text" id="firstName" name="firstName" class="form-control" [(ngModel)]="person.firstName"></div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="form-group">
+      <label for="lastName">lastName</label>
+      <div ><input type="text" id="lastName" name="lastName" class="form-control" [(ngModel)]="person.lastName"></div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <button type="button" class="btn btn-primary" (click)="savePerson()">Save</button>
+  </div>
+</div>

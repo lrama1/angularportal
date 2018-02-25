@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="form-group">
+      <label for="vin">vin</label>
+      <div ><input type="text" id="vin" name="vin" class="form-control" [(ngModel)]="vehicle.vin"></div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="form-group">
+      <label for="year">year</label>
+      <div ><input type="text" id="year" name="year" class="form-control" [(ngModel)]="vehicle.year"></div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="form-group">
+      <label for="make">make</label>
+      <div ><input type="text" id="make" name="make" class="form-control" [(ngModel)]="vehicle.make"></div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="form-group">
+      <label for="model">model</label>
+      <div ><input type="text" id="model" name="model" class="form-control" [(ngModel)]="vehicle.model"></div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <button type="button" class="btn btn-primary" (click)="saveVehicle()">Save</button>
+  </div>
+</div>

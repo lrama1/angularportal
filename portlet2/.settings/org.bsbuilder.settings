@@ -1,0 +1,5 @@
+basePackage=com.olengski
+secureCodeEnabled=false
+useMongo=false
+uiType=Angular4
+prepForOracle=false
