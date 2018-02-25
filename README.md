@@ -26,3 +26,6 @@ An app generated using angular-cli with the following files modified
     *  removed <BASE> element
 6.  app.component.ts - updated 'selector' value to 'app-root1' to match element root
                 name specified in item #5
+
+## portlet2
+Same as portlet1 except that the app-root is named 'app-root2'
